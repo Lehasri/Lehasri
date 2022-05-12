@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Addition.java&apos; to &apos;Addition/src/com.chainsys.addition&apos;&#x0D;&#x0A;- Original project: &apos;Addition&apos;&#x0D;&#x0A;- Destination element: &apos;Addition/src/com.chainsys.addition&apos;&#x0D;&#x0A;- Original element: &apos;Addition.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.chainsys.addition" element1="/src&lt;{Addition.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1648524981062" units="1" version="1.0"/>
+</session>

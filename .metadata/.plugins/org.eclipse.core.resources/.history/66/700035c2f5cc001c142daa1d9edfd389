@@ -1,0 +1,10 @@
+package com.chainsys.database;
+
+public class MyPreparedStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
