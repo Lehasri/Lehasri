@@ -1,4 +1,4 @@
-package com.chainsys.classtest;
+/*package com.chainsys.classtest;
 public class StringCount {
 
 	public static void main(String[] args) {
@@ -15,4 +15,4 @@ public static void countWord()
     String s2=s1.
     System.out.println(reverse+"");
 }
-}
+}*/

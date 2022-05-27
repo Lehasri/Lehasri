@@ -1,4 +1,4 @@
-package com.chainsys.classtest;
+/*package com.chainsys.classtest;
 
 public class Digits {
 
@@ -29,4 +29,4 @@ public static void digits()
 
 }
 }
-}
+}*/

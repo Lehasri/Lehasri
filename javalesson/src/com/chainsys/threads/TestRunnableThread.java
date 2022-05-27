@@ -150,7 +150,7 @@ multiThreadsSynchronizedOnSameObject();
 			 System.out.println("From Main--END!!!");
 			 } 
 		catch (Exception e) {
-		//	System.out.println("ERROR!!! " + e.getMessage());
+		System.out.println("ERROR!!! " + e.getMessage());
 			}
 	
 	}

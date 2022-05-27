@@ -11,7 +11,7 @@ public class CreateValues {
 		try {
             Connection myCon = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system" ,"oracle" );
             Statement mystat = myCon.createStatement();
-            String Query=("create table emp6(name varchar2(30),salary int)");
+            String Query=("create table emp6(name varchar2(10),salary int)");
            //ResultSet myRs=mystat.executeQuery("select * from emp4");
            mystat.execute(Query);
            //while (myRs.next()) {

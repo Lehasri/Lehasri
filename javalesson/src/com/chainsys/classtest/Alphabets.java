@@ -1,4 +1,4 @@
-package com.chainsys.classtest;
+/*package com.chainsys.classtest;
 import java.util.Scanner;
 
 public class Alphabets {
@@ -26,4 +26,4 @@ public class Alphabets {
 		}
 	}
 
-}
+}*/

@@ -14,16 +14,19 @@ public class MyPreparedStatement {
 	        try {
 	            Class.forName("oracle.jdbc.driver.OracleDriver");
 	            con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system" ,"oracle");
-	            String query = "insert into emp4(name,salary) values(?,?)";
+	            String query = "insert into emp4 values(?,?)";
 	            prSt = con.prepareStatement(query);
 	            prSt.setString(1, "John");
 	            prSt.setInt(2, 10000);
+	            //prSt.setString(1, "Cric");
+	            //prSt.setInt(2, 5000);
+	            
 	            //count will give you how many records got updated
 	            int count = prSt.executeUpdate();
-	            //Run the same query with different values
 	            prSt.setString(1, "Cric");
 	            prSt.setInt(2, 5000);
-	            count = prSt.executeUpdate();
+	            int count1 = prSt.executeUpdate();
+	            //Run the same query with different values
 	        } catch (ClassNotFoundException e) {
 	            // TODO Auto-generated catch block
 	            e.printStackTrace();
@@ -41,4 +44,3 @@ public class MyPreparedStatement {
 
 	}
 
-}
